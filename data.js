@@ -1,6 +1,6 @@
 /*
   ============================================================
-  FOUNDERS FOOTBALL CUP 26/27 — EDIT YOUR TOURNAMENT HERE
+  FOUNDERS FOOTBALL TOURNAMENT 26/27 — EDIT YOUR TOURNAMENT HERE
   ============================================================
 
   This is the ONLY file you need to edit for normal updates.
@@ -15,10 +15,13 @@
   - A match without homeScore/awayScore is upcoming.
   - Standings are calculated automatically from completed matches.
   - Player goals are calculated from the scorer lists in matches.
+  - Optional: give a team group: "y12" (Group 1) or group: "y13" (Group 2) to get
+    separate group tables and the knockout bracket. Knockout matches use
+    stage: "sf-y12", "sf-y13" or "final" (normal matches need no stage).
 */
 
 const TOURNAMENT = {
-  name: "Founders Football Cup",
+  name: "Founders Football Tournament",
   season: "26/27",
   tagline: "Same school • Same passion • One cup"
 };
